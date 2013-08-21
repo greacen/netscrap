@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /iitw
+Allow: /greacen
+Allow: /aaa
+Allow: /people
+Allow: /greacen
+Allow: /media
+Allow: /netscrap_detail.cfm?*
+Allow: /sitemap.txt
+Allow: /cm
+Disallow: /admin
+Disallow: /cgi-bin
+Disallow: /BorkFactor9
+Disallow: /score_results.cfm
+Disallow: /updates
+Disallow: /bin

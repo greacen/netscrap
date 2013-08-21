@@ -1,0 +1,270 @@
+body {
+	margin: 0; 
+	padding: 0; 
+	background-color: #999999;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: left;
+	font-size: small;
+	}
+
+
+a	{
+	text-decoration: underline;
+	color: #333333;
+	}
+
+a:hover	{
+	text-decoration: underline;
+	border: none;
+	padding: 0px;
+	color: #737373;
+	}
+
+h1, h2, h3 {
+	margin: 0px;
+	margin-top: 15px;
+	padding: 0px;
+	font-weight: normal;
+	}
+
+#container {
+	line-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+	width: 750px;
+	background-color: #F8F8F8;
+	border: 1px solid #000000;
+	}
+
+#banner {
+	background-color: #333333;
+	text-align: left;
+	padding: 0px;
+	border-bottom: 1px solid #FFFFFF;
+	height: 80px;
+	/* background-image: url(/greacen/photo/catalog/(Artistic)_Lomoesque_Chinatown/Ditigal_Image_Lomo_In_Chinatown_08.jpg); */
+	background-repeat: repeat;
+	overflow: hidden;
+	}
+
+a#banner-img {
+	display: none;
+	}
+
+#banner a {
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+#banner h1 {
+	font-size: 180pt;
+	font-weight: bold;
+	color: #555555;
+	text-align: right;	
+	z-index: -1;
+	line-height: 5%;
+}
+
+#banner h2 {
+	font-size: small;
+	font-weight: bold;
+	color: #737373;
+	}
+	
+#banner h3 {
+	font-size: small;
+	color: #939393;
+	position:relative;
+	z-index:10;
+	left:5px;
+	top:5px;
+
+	}
+#center {
+	float: left;
+	width: 748px;
+	overflow: hidden;
+	z-index:10;
+	}
+
+.content {
+	padding: 15px 15px 5px 15px;
+	background-color: #F8F8F8;
+	color: #666666;
+	font-size: small;
+	}
+
+#right {
+	float: left;
+	width: 0px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	}
+
+.content p {
+	color: #666666;
+	font-size: small;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+.content blockquote {
+	line-height: 150%;
+	}
+
+.content li {
+	line-height: 150%;
+	}
+
+.content h2 {
+	color: #333333;
+	font-size: large;
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+.content h3 {
+	color: #333;
+	font-size: medium;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+	}
+
+.content p.posted {
+	color: #999999;
+	font-size: x-small;
+	border-top: 1px solid #999999;
+	text-align: left;
+	margin-bottom: 25px;
+	line-height: normal;
+	padding: 3px;
+	}
+.content ul, ol {
+	color: #999999;
+	text-align: left;
+	margin-bottom: 25px;
+	margin-left: 25px;
+
+	padding-left: 60px;
+	line-height: normal;
+	padding: 3px;
+	}
+
+
+.sidebar {
+	padding: 15px;
+	background-color: #F8F8F8;
+	}
+
+#calendar {
+  	line-height: 140%;
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+  	padding: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	}
+
+#calendar table {
+	padding: 2px;
+	border-collapse: collapse;
+	border: 0px;
+	width: 100%;
+	}
+
+#calendar caption {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	}
+
+#calendar th {
+	text-align: center;
+	font-weight: normal;
+	}
+
+#calendar td {
+	text-align: center;
+	}
+
+.sidebar h2 {
+	color: #666666;
+	font-size: x-small;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	}
+
+.sidebar ul {
+	padding-left: 0px;
+	margin: 0px;
+	margin-bottom: 30px;
+	}
+
+.sidebar li {
+	color: #666666;
+	font-size: x-small;
+	text-align: left;
+	line-height: 150%;
+	margin-top: 10px;
+	list-style-type: none;
+	}
+
+.sidebar img {
+	border: 3px solid #FFFFFF;
+	}
+
+.photo {
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+.link-note {
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	padding: 2px;
+	margin-bottom: 15px;
+	}
+
+#powered {
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	color: #666666;
+	margin-top: 50px;
+	}
+
+#comment-data {
+	float: left;
+	width: 180px;
+	padding-right: 15px;
+	margin-right: 15px;
+	text-align: left;
+	border-right: 1px dotted #BBB;
+	}
+
+textarea[id="comment-text"] {
+	width: 80%;
+	}
+
+code, pre {
+  margin: 1em 4%;
+  padding: 1em;
+  border: 1px solid #CCC;
+  display: block;
+  background: #FAFAFA;
+  color: #969696;
+  font: 90%/1.5em "Courier New", Courier, monospace;
+}
